@@ -35,6 +35,6 @@ public class AdvancedBooleanLogic {
      * @return true if neither b1 nor b2 are true. Return false if either b1 or b2 is true.
      */
     public boolean returnNeitherNor(boolean b1, boolean b2){
-        return (b1 || b2 == true )  == false;
+        return (b1 | b2 == true )  == false;
     }
 }
